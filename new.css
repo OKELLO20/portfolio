@@ -245,3 +245,10 @@ footer{
 .home-sci a:hover::before{
     width: 100%;
 }
+
+ul{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
