@@ -178,7 +178,7 @@ footer{
 .image{
     position: relative;
     
-    background-image: url(/transfer/image.jpg);
+    background-image: url(transferimage.jpg);
     opacity: 0.5;
     background-position: center;
     height: 80svh;
