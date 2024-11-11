@@ -49,7 +49,7 @@ body{
 .home{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    border: 2px solid red;
+   
     max-height: 80svh;
 }
 
@@ -210,6 +210,7 @@ footer{
     width: 95svw;
     max-width: 500px;
     max-height: 60svh;
+    border: 2px solid red;
     
    } 
     
