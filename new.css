@@ -191,7 +191,7 @@ footer{
 .image{
     position: relative;
     
-    background-image: url(/transfer/image.jpg);
+    background-image: url(transfer/image.jpg);
     background-repeat: no-repeat;
     opacity: 0.5;
     background-position: center;
@@ -210,7 +210,7 @@ footer{
     width: 95svw;
     max-width: 500px;
     max-height: 60svh;
-    border: 2px solid red;
+   
     
    } 
     
