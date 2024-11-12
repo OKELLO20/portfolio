@@ -7,6 +7,12 @@ body{
     color: #ededed;
 }
 
+.heightr{
+    position: absolute;
+    height: 0px;
+    font-size: 0px;
+}
+
 .header{
    /* position: fixed;
     top: 0px;
@@ -49,7 +55,6 @@ body{
 .home{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-   
     max-height: 80svh;
 }
 
@@ -72,6 +77,11 @@ body{
 footer{
     position: absolute;
     bottom: 7px;
+}
+
+#goal{
+    position: relative;
+    top: 0px;
 }
 
 }
@@ -108,14 +118,14 @@ footer{
 }
 
 .home-content h3{
-    font-size: 2rem;
+    font-size: clamp(23px, 3.5svw, 1.94rem);
     font-weight: 700;
     color: #00abf0;
 
 }
 
 .home-content p {
-    font-size: 1.2rem;
+    font-size: clamp(16px, 3svw, 21px);
     margin: 20px 0 40px;
     font-weight: 500;
     
@@ -210,10 +220,53 @@ footer{
     width: 95svw;
     max-width: 500px;
     max-height: 60svh;
-   
     
    } 
     
+}
+
+@media (max-width:500px) {
+    p{
+        height: fit-content;
+        margin-left: 0px;
+        width: 95svw;
+        
+    }
+
+}
+
+@media (max-width:400px) {
+    
+    .btn-box{
+        width: 95svw;
+    }
+
+    .btn-box a {
+        width: 160px;
+    }
+
+}
+
+@media (max-height:400px) {
+    body{
+        background: white;
+        color: white;
+
+    }
+
+    .heightr{
+        height: 100svh;
+        width: 100svw;
+        background: #04634e;
+        color: white;
+        font-size: 1.8rem;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .image{
+        background: #ededed;
+    }
 }
 
 
@@ -267,5 +320,23 @@ ul{
     font-size: 18px;
     font-weight: 500;
 }
+
+
+
+
+
+
+
+   
+
+
+
+
+ 
+   
+
+
+
+
 
 
